@@ -6,15 +6,14 @@ export const yayasan = {
   namaResmi: 'Yayasan At-Tauhid Al Islamy Bangka Belitung',
   kodeYayasan: 'AL1141',
   alamat: 'Jl. Jebung Dalam, Kec. Gabek, Kota Pangkal Pinang, Kepulauan Bangka Belitung',
-  kodePos: '33172',
+  kodePos: '33119',
   pimpinan: 'Ali Agustian Bahri, S.Pt.',
   email: 'yayasan.attauhid.alislamy@gmail.com',
   instagram: 'https://www.instagram.com/yayasan_attauhid/',
   noPendirian: '01',
   tglPendirian: '3 September 2012',
   noSkMenkumham: 'AHU-AH.01.06.0016198 Tahun 2025',
-  // TODO: konfirmasi tanggal terbit SK terbaru ini (tanggal sebelumnya, 10 Oktober 2012, kemungkinan sudah tidak berlaku)
-  tglSkMenkumham: '10 Oktober 2012',
+  tglSkMenkumham: '15 Januari 2025',
   koordinat: { lat: -2.095232172276, lng: 106.104866129001 },
   // TODO: ganti dengan naskah visi-misi resmi yayasan
   visi:
