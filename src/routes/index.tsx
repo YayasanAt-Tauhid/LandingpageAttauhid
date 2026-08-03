@@ -6,12 +6,12 @@ export const Route = createFileRoute('/')({ component: Home })
 function Home() {
   return (
     <div>
-      <section className="bg-emerald-800 text-emerald-50">
+      <section className="border-b-4 border-amber-400 bg-gradient-to-br from-emerald-950 via-emerald-800 to-emerald-700 text-emerald-50">
         <div className="mx-auto max-w-5xl px-4 py-16 sm:px-6 sm:py-24">
-          <p className="text-sm font-medium tracking-wide text-emerald-200 uppercase">
+          <p className="text-sm font-medium tracking-wide text-amber-300 uppercase">
             Yayasan At-Tauhid Al Islamy Bangka Belitung
           </p>
-          <h1 className="mt-3 max-w-2xl text-3xl font-bold sm:text-5xl">
+          <h1 className="mt-3 max-w-2xl text-3xl font-extrabold text-amber-300 sm:text-5xl">
             Mendidik generasi penghafal Al-Qur'an, berakhlak mulia, dan unggul
           </h1>
           <p className="mt-4 max-w-xl text-emerald-100">
@@ -21,13 +21,13 @@ function Home() {
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
               to="/unit"
-              className="rounded-lg bg-white px-5 py-3 font-semibold text-emerald-800 hover:bg-emerald-50"
+              className="rounded-lg bg-amber-400 px-5 py-3 font-semibold text-emerald-950 hover:bg-amber-300"
             >
               Lihat Unit Sekolah
             </Link>
             <Link
               to="/kontak"
-              className="rounded-lg border border-emerald-200 px-5 py-3 font-semibold text-white hover:bg-emerald-700"
+              className="rounded-lg border border-amber-300/60 px-5 py-3 font-semibold text-amber-100 hover:bg-emerald-700"
             >
               Hubungi Kami
             </Link>
@@ -75,7 +75,7 @@ function Home() {
             href={portalUrl}
             target="_blank"
             rel="noreferrer"
-            className="mt-6 inline-block rounded-lg bg-emerald-700 px-5 py-3 font-semibold text-white hover:bg-emerald-800"
+            className="mt-6 inline-block rounded-lg bg-amber-400 px-5 py-3 font-semibold text-emerald-950 hover:bg-amber-300"
           >
             Buka Portal Hijrah At-Tauhid
           </a>

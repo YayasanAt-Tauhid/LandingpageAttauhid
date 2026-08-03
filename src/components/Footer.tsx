@@ -2,7 +2,7 @@ import { yayasan } from '#/lib/site-data'
 
 export function Footer() {
   return (
-    <footer className="border-t border-emerald-900/10 bg-emerald-50 dark:border-white/10 dark:bg-emerald-950">
+    <footer className="border-t-4 border-amber-400 bg-emerald-50 dark:bg-emerald-950">
       <div className="mx-auto max-w-5xl px-4 py-8 text-sm text-emerald-900 sm:px-6 dark:text-emerald-100">
         <div className="grid gap-6 sm:grid-cols-3">
           <div>
