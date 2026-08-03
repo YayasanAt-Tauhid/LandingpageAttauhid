@@ -19,10 +19,12 @@ export const Route = createRootRoute({
       { property: 'og:title', content: siteTitle },
       { property: 'og:description', content: siteDescription },
       { property: 'og:type', content: 'website' },
+      { property: 'og:image', content: '/logo-yayasan.png' },
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
-      { rel: 'icon', href: '/favicon.ico' },
+      { rel: 'icon', href: '/logo-yayasan.png', type: 'image/png' },
+      { rel: 'apple-touch-icon', href: '/logo-yayasan.png' },
     ],
     scripts: [
       {

@@ -74,4 +74,4 @@ export const unitSekolah: Array<SekolahUnit> = [
   },
 ]
 
-export const portalUrl = 'https://portal-at-tauhid.yayasan-attauhid-1.workers.dev'
+export const portalUrl = 'https://hijrah-attauhid.or.id'

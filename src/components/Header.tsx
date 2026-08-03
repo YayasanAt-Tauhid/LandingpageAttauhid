@@ -12,9 +12,11 @@ export function Header() {
     <header className="sticky top-0 z-40 border-b border-emerald-900/10 bg-white/90 backdrop-blur dark:border-white/10 dark:bg-emerald-950/90">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-3 sm:px-6">
         <Link to="/" className="flex items-center gap-2 font-semibold text-emerald-900 dark:text-emerald-50">
-          <span className="grid h-9 w-9 place-items-center rounded-full bg-emerald-700 text-sm font-bold text-amber-300 ring-2 ring-amber-400">
-            AT
-          </span>
+          <img
+            src="/logo-yayasan.png"
+            alt="Logo Yayasan At-Tauhid Al Islamy Bangka Belitung"
+            className="h-9 w-9 rounded-full bg-white object-contain p-0.5 ring-2 ring-amber-400"
+          />
           <span className="leading-tight">
             Yayasan At-Tauhid
             <br />
