@@ -12,7 +12,8 @@ export const yayasan = {
   instagram: 'https://www.instagram.com/yayasan_attauhid/',
   noPendirian: '01',
   tglPendirian: '3 September 2012',
-  noSkMenkumham: 'AHU-6409.AH.01.04.Tahun 2012',
+  noSkMenkumham: 'AHU-AH.01.06.0016198 Tahun 2025',
+  // TODO: konfirmasi tanggal terbit SK terbaru ini (tanggal sebelumnya, 10 Oktober 2012, kemungkinan sudah tidak berlaku)
   tglSkMenkumham: '10 Oktober 2012',
   koordinat: { lat: -2.095232172276, lng: 106.104866129001 },
   // TODO: ganti dengan naskah visi-misi resmi yayasan
