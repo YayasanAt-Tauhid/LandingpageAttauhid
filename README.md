@@ -35,8 +35,25 @@ npm run build     # vite build (client + ssr)
 npm run deploy    # build lalu wrangler deploy
 ```
 
-Konfigurasi Cloudflare ada di `wrangler.jsonc` (nama Worker: `landingpage-attauhid`). Perlu
-login `wrangler` (`npx wrangler login`) atau `CLOUDFLARE_API_TOKEN` di CI sebelum deploy.
+Konfigurasi Cloudflare ada di `wrangler.jsonc` (nama Worker: `landingpage-attauhid`).
+
+### Deploy otomatis (GitHub Actions)
+
+`.github/workflows/deploy.yml` menjalankan `npm run build` lalu `wrangler deploy` setiap push
+ke `main` (atau manual lewat workflow_dispatch). Perlu dua repo secret (Settings → Secrets and
+variables → Actions):
+
+| Secret | Cara dapat |
+|---|---|
+| `CLOUDFLARE_API_TOKEN` | Cloudflare Dashboard → My Profile → API Tokens → Create Token, pakai template **Edit Cloudflare Workers**. |
+| `CLOUDFLARE_ACCOUNT_ID` | Cloudflare Dashboard → sidebar kanan halaman Workers & Pages mana pun. |
+
+### Deploy manual dari komputer sendiri
+
+```bash
+npx wrangler login   # butuh browser — jalankan di komputer lokal, bukan sandbox/CI
+npm run deploy
+```
 
 ## Struktur data
 
